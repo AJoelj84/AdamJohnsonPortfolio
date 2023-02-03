@@ -24,6 +24,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
 }
+.projectheader{
+    color: white;
+    font-size: 400%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 a:link{
     color: white;
     text-decoration: solid;
@@ -32,6 +38,13 @@ a:hover{
     color: rgb(255, 0, 0);
     text-decoration: none;
     
+}
+
+.divsectionbox{
+    border: 30px black;
+    padding: 20px;
+    margin: 20px;
+    float: left;
 }
 
 a:active{
