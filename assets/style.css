@@ -50,42 +50,36 @@ a:visited{
  }
 
 
+a{
+    color: white;
+    text-decoration: solid;
+}
 
+p{
+    font-size: 16px;
+    text-decoration: solid;
+}
 
-
-.float-left{
+.linksections{
+    margin:5px;
+    border: 4px solid black;
     float: left;
-    margin-left: 25px;
-}
-.float-right{
-    float: right;
-    margin-right: 25px;
+    width: 600px;
 }
 
-
-
-
- .PortfolioTabs {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+.linksections:hover{
+    border: 4px solid red;
 }
 
-.Project-Contact-About {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+.linksections img {
+    width: 100%;
+    height: auto;
 }
 
-.PortfolioTabs img {
-    max-height: 300px;
-
-}
-
-.Project-Contact-About h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.linktext{
+    padding: 5px;
+    text-decoration: solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    text-align: center;
 }
