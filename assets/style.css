@@ -74,7 +74,6 @@ a:active{
 .linksections{
     position: relative;
     box-sizing: border-box;
-    
     border-radius: 20px 20px 20px 20px;
     display: flex;
     flex-direction: column;
@@ -84,6 +83,7 @@ a:active{
     color: white;
     float: left;
     width: 500px;
+    height: 500px;
 }
 
 .linksections:hover{
@@ -94,7 +94,7 @@ a:active{
 }
 
 .linksections img {
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 15px 15px 15px 15px;
     margin-top: 0px;
     margin-bottom: 0px;
     width: 100%;
