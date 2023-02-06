@@ -4,7 +4,19 @@
 
 body{
     background-color: rgb(1, 65, 129);
+    display: flex;
+    flex-direction: column;
 }
+
+a:active{
+    color: crimson;
+    text-decoration: double;
+}
+
+
+ a{
+    color: white;
+ }
 
 
 .navigationheader{
@@ -22,7 +34,6 @@ body{
 .navigationheader nav{
     display: inline-flex;
     float: right;
-    color: white;
 }
 .navigationheader ul li{
     display: inline-flex;
@@ -32,6 +43,12 @@ body{
     margin: 10px;
 }
 
+.projectheader{
+    margin-left: 50px;
+    color: white;
+    font-size: 400%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 .aboutme{
     font-size: 30px;
@@ -41,13 +58,15 @@ body{
     padding: 40px;
     line-height: 40px;
 }
-
-.projectheader{
-    margin-left: 50px;
+.contactinfo{
+    display: inline-flex;
+    text-indent: 70px;
+    text-decoration: underline;
+    font-size: 40px;
     color: white;
-    font-size: 400%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 
 a:link{
     color: white;
@@ -58,18 +77,6 @@ a:hover{
     text-decoration: none;
     
 }
-
-a:active{
-    color: crimson;
-    text-decoration: double;
-}
-
-
- a{
-    color: white;
- }
-
-
 
 .linksections{
     position: relative;
@@ -115,14 +122,13 @@ a:active{
     color: white;
     font-size: 25px;
     font-weight: 200;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-    /* padding: 5px;
-    text-decoration: solid;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: x-large;
-    text-align: center; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
 }
+
+
+
+
+
 
 
 
