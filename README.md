@@ -19,7 +19,7 @@ and GitHub Contact Info.  All other Links have been given a designation
 and link for Place Holder / Under Construction Content.
 
 
-# ALL FRAMEWORK AND CODE BUILT BY Adam Johnson 2/2023
+
 # MIT License
 
 # Link
