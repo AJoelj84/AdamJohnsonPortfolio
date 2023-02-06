@@ -21,3 +21,9 @@ and link for Place Holder / Under Construction Content.
 
 # ALL FRAMEWORK AND CODE BUILT BY Adam Johnson 2/2023
 # MIT License
+
+# Link
+https://ajoelj84.github.io/AdamJohnsonPortfolio/
+
+# Screenshot
+![portfolio screenshot](https://user-images.githubusercontent.com/100973307/217047399-3dac1cc7-948c-40e0-aeb7-c2018908f6c0.jpg)
