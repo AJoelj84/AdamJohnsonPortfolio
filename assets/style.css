@@ -1,20 +1,30 @@
+
+/* Body Styling Color and Display Settings */
 body{
     background-color: rgb(1, 65, 129);
     display: flex;
     flex-direction: column;
 }
-
+/* Link Style Control*/
 a:active{
     color: crimson;
     text-decoration: double;
 }
-
-
- a{
+a{
     color: white;
  }
 
+ a:link{
+    color: white;
+    text-decoration: solid;
+}
+a:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    
+}
 
+/* Navigation Title and Link Style Control */
 .navigationheader{
     display:flex;
     background-color: rgb(0, 20, 39);
@@ -38,14 +48,7 @@ a:active{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 10px;
 }
-
-.projectheader{
-    margin-left: 50px;
-    color: white;
-    font-size: 400%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
+/* About Me Styling Section */
 .aboutme{
     font-size: 30px;
     color: white;
@@ -54,27 +57,13 @@ a:active{
     padding: 40px;
     line-height: 40px;
 }
-.contactinfo{
-    display: inline-flex;
-    text-indent: 70px;
-    text-decoration: underline;
-    font-size: 40px;
+/* Projects Section Styling, Control, and Link Section */
+.projectheader{
+    margin-left: 50px;
     color: white;
+    font-size: 400%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-
-a:link{
-    color: white;
-    text-decoration: solid;
-}
-a:hover{
-    color: rgb(255, 0, 0);
-    text-decoration: none;
-    
-}
-
-
 .primarylink{
     position: relative;
     border-radius: 20px 20px 20px 20px;
@@ -86,7 +75,6 @@ a:hover{
     width: 1400px;
     height: 500px;
 }
-
 .primarylink:hover{
     display: block;
     background-color: aqua;
@@ -104,7 +92,6 @@ a:hover{
     width: 1400px;
     height: 500px;  
 }
-
 .linksections{
     position: relative;
     box-sizing: border-box;
@@ -118,11 +105,9 @@ a:hover{
     width: 500px;
     height: 500px;
 }
-
 .linksections:hover{
     background-color: aqua;
 }
-
 .linksections img {
     border-radius: 15px 15px 15px 15px;
     width: 100%;
@@ -130,9 +115,7 @@ a:hover{
 }
 .linksections img:hover{
     filter: opacity(75%);
-
 }
-
 .linktext{
     background-color: rgb(1, 66, 66);
     padding: 20px;
@@ -145,6 +128,16 @@ a:hover{
     font-weight: 200;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
 }
+/* Contact Info Style Control */
+.contactinfo{
+    display: inline-flex;
+    text-indent: 70px;
+    text-decoration: underline;
+    font-size: 40px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 
 
 
