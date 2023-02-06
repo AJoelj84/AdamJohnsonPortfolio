@@ -1,3 +1,5 @@
+/* Style sheet for Resume.html Page */
+
 body{
     background-color: rgb(1, 65, 129);
     display: flex;
@@ -6,7 +8,7 @@ body{
     font-size: 20px;
     text-align: center;
 }
-
+/* Control for the Main titles, Name, Experience, etc. */
 .titleheads{
     background-color: rgb(0, 20, 39);
     border-radius: 20px;
@@ -14,7 +16,7 @@ body{
     font-size: 50px;
     text-align: center;
 }
-
+/* Control for the Experience titles */
 .experience{
     background-color: black;
     border-radius: 20px;
