@@ -219,7 +219,7 @@ a:hover{
 
 }    
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 580px) {
     .navigationheader nav ul li {display:none}
     .projectheader{
         flex: 85%;
