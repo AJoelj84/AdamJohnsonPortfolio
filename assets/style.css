@@ -90,24 +90,20 @@ a:hover{
 .primarylink:hover{
     display: block;
     background-color: aqua;
-    width: 80%;
-    height: 23%;
-}
-
-.primarylink img {
-    border-radius: 15px 15px 15px 15px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-   
-   
-   
+    width: 1400px;
+    height: 500px;
 }
 .primarylink img:hover{
     filter: opacity(75%);
 
 }
-
-
+.primarylink img {
+    border-radius: 15px 15px 15px 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 1400px;
+    height: 500px;  
+}
 
 .linksections{
     position: relative;
