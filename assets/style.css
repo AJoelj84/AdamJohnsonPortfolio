@@ -137,15 +137,7 @@ a:hover{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-
-
-
-
-
-
-
-
+/* Media Screen Size controls for Desktop*/
 @media screen and (max-width: 1400px) {main,
     .projectheader{
         flex: 95%;
@@ -178,6 +170,8 @@ a:hover{
         font-size: 100%; 
         }
     }
+
+/* Media Screen size controls for Tablet */
 @media screen and (max-width: 768px) {
     .projectheader{
         flex: 90%;
@@ -211,7 +205,7 @@ a:hover{
         }
 
 }    
-
+/* Media Screen size controls for Phone */
 @media screen and (max-width: 580px) {
     .navigationheader nav ul li {display:none}
     .projectheader{
